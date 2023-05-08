@@ -37,12 +37,17 @@
 
 //Proyectos
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .proyect-article:last-child {
-        grid-area: 3 / 1 / 4 / 5;
+        grid-area: 3 / 1 / 4 / 3;
     }
 }
 
+@media (min-width: 992px) {
+    .proyect-article:last-child {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+}
 //Sobre mi
 
 @media (min-width: 992px) {
